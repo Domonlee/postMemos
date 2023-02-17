@@ -1,4 +1,4 @@
-迁移到 Memo 用了一段时间，体验挺好。写了一个简单的 [Python 脚本 - PostMemos]( https://github.com/Domonlee/postMemos ) 。通过 `request` 去给 `OpenApi` 发送请求。并用别名的方式去调用这个脚本，实现了命令行快速发送 Memo。
+迁移到 [Memo](https://github.com/usememos/memos) 用了一段时间，体验挺好。写了一个简单的 [Python 脚本 - PostMemos]( https://github.com/Domonlee/postMemos ) 。通过 `request` 去给 `OpenApi` 发送请求。并用别名的方式去调用这个脚本，实现了命令行快速发送 Memo。
 
 ```python
 OPENAPI = 'input your OpenApi'
