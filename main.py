@@ -9,7 +9,7 @@ HEADER = { 'Content-Type': 'application/json' }
 def get_args():
     parser = argparse.ArgumentParser(description='命令行快速发送Memo')
     parser.add_argument("c", type=str, help="内容参数，默认不用输入")
-    parser.add_argument("--T", '-t', default="#inbox", type=str, help="标签参数，默认为#inbox标签")
+    parser.add_argument("--T", '-t', default="inbox", type=str, help="标签参数，默认为#inbox标签")
     parser.add_argument("--V", '-v', default="PRIVATE", type=str, help="公开范围，默认为PRIVATE，还可选择PUBLIC，PROTECTED")
 
     args = parser.parse_args()
